@@ -1,0 +1,154 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    margin: 0px;
+    
+}
+.navbar1 ul{
+    display: flex;
+}
+.navbar1 ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+    align-items: center;
+}
+#icon{
+    font-size: 35px;
+}
+#logotext{
+    text-decoration: none;
+    color: 	#E4002B;
+    align-items: center;
+    font-size: 35px;
+    font-weight: bolder;
+    /* font-family: Friz Quadrata; */
+}
+#linkbtn{
+    display: flex;
+    text-decoration: none;
+}
+#btnimg{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    color: white;
+    margin: 0px 5px;
+align-items: center;
+justify-content: center;
+    font-size: 10px;
+    background-color: rgb(37, 20, 20);
+    border-radius: 10px;
+    border: 3px solid #E4002B ;
+}
+#btnh3{
+    font-size: 15px;
+    align-items: center;
+    margin: auto 3px;
+}
+#btnimg2{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 6px;
+    justify-content: center;
+    margin: 0px 5px;
+    background-color: rgb(37, 20, 20);
+    border-radius: 10px;
+    border: 0px;
+
+}
+#btnimg img {
+    height: 25px;
+    width: 25px; 
+
+}
+#btnimg2 img{
+    height: 25px;
+    width: 25px; 
+}
+#loginbtn{
+    height: 50px;
+    width: 70px;
+    background-color: #E4002B;
+    color: white;
+    border: 0px;
+border-radius: 10px;
+font-size: 15px;
+font-family: arial;
+margin: 20px;
+}
+#aside::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+ #aside ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    border-radius: 1px;
+  }
+   
+  /* Handle */
+ #aside ::-webkit-scrollbar-thumb {
+    background: lightgray; 
+    border-radius: 1px;
+  }
+  
+  /* Handle on hover */
+ #aside ::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+  }
+#asidediv{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.7);
+}
+.asidediv1{
+    flex: 1;
+}
+.asidediv2{
+    flex: 3;
+}
+#aside{
+    height: 100%;
+
+    background-color:rgb(37, 20, 20) ;
+    position: fixed;
+overflow: auto;
+    z-index: 1;
+}
+
+#ulli li{
+list-style-type: none;
+}
+#asidelink{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 5px 0px;
+    color: white;
+  padding: 6px 6px 6px 30px;
+}
+#asidelink:hover{
+    background-color: lightgray;
+    background-size: 20px 60px;
+    padding: 6px 6px 6px 10px;
+    transition: 0.5s;
+}
+
+
+#asidelink h5{
+    align-items: center;
+    padding: 3px;
+}
+#asideimg{
+height: 30px;
+width: 30px;
+
+}
