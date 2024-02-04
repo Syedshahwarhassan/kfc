@@ -287,3 +287,89 @@ right: 5px;
     .scaleimg:hover{
         transform: scale(1.1);
     }
+    #squarimage{
+        width: 100%;
+        height: 600px;
+padding-left: 14%;
+    }
+    #squar{
+        width: 80%;
+        height: 42%;
+        margin: 10px;
+
+display: flex;
+    }
+    #roundedimage{
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    #squar1{
+        width: 80%;
+        height: 42%;
+        margin: 10px;
+display: flex;
+    }
+    .top-footer{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(37, 20, 20);
+    }
+    .top-footer h1{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        color: #E4002B;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    .footer-icon i{
+        margin: 10px;
+        padding: 10px;
+        background-color: white;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+    }
+    footer{
+        background-color: rgb(37, 20, 20);
+        width: 100%;
+        height: 300px;
+        display: flex
+    }
+    #footerdiv{
+    width: 25%;
+    margin-top:30px ;
+    }
+    #footertext{
+        color: white;
+        font-family: arial;
+        font-weight:lighter;
+        margin: 10px;
+        padding-left: 20px;
+    }
+    #footertext:hover{
+        color: #E4002B;
+    }
+    .footer-end{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(37, 20, 20);
+    }
+    #endfooter{
+        margin: 20px;
+    }
+    #endfooter h6{
+        color: white;
+        font-size: 15px;
+    }
+    #explorebtn{
+        background-color: #E4002B;
+        padding: 5px;
+        color: white;
+        margin: auto;
+        border-radius: 5px;
+        border: 0px;
+        margin-left: 40%;
+    }
